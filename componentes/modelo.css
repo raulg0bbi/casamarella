@@ -1,0 +1,199 @@
+@charset "ISO-8859-1";
+
+@font-face {
+font-family: "bignoodle";
+src: url("fontes/bignoodletitling/big_noodle_titling.ttf");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+head {
+	background-color: white;
+		  margin: 0;
+  padding: 0;
+}
+
+body {
+	background-color: black;
+	  margin: 0;
+  padding: 0;  
+ 
+}
+
+.logo {
+	float: left;
+}
+
+.logolink {
+	background-color: white;
+}
+
+.cimaheader {
+
+ background-size: cover;
+transition: 0.5s ease;
+height: 70px;
+margin: 0;	
+ padding: 0;
+
+
+}
+
+header {
+	width: 100%;
+	background-color: white;
+	margin: 0;
+  padding: 0;
+}
+
+.footer {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: yellow;
+	color: black;
+	text-align: center;
+	font-family: bignoodle;
+	font-size: 23px;
+	margin: 0;
+  padding: 0;
+  max-height: 100px;
+}
+
+#menuzera {
+	height: 70px;
+	float: right;
+	
+}
+
+#menuzera tr {
+
+
+}
+
+#menuzera th {
+
+}
+
+#menuzeralogo {
+	margin-left: -3px;
+	height: 70px;
+	float: left;
+}
+
+#menuzeralogo tr {
+	
+
+	}
+	
+#menuzeralogo th {
+	
+
+	}
+	
+	
+.estilobotaotop {
+	text-decoration: none;
+	font-family: bignoodle;
+	height: 85px;
+	padding: 21px 50px 22px 50px;
+
+	transition: 0.3s ease;
+	margin-right: -4px;
+	font-size: 25px;
+	letter-spacing: 3px;
+	color: yellow;
+}
+
+.estilobotaotop:hover {
+	background-color: yellow;
+	color: black;
+	transition: 0.3s ease;
+	
+}
+
+#firstsec {
+  background-position: center;
+  background-size: cover;
+  background-image: url("imagens/firstbigimg.jpg");
+  min-height: 950px;
+  max-height: 950px;
+  margin-top: -69px;
+}
+
+.firstlinkclass {
+	font-family: bignoodle;
+	font-size: 99px;
+	text-decoration: none;
+	color: yellow;
+	background-color: black;
+	transition: 0.3s ease;
+	letter-spacing: 3px;
+    text-align: right;
+   float: left;
+}
+
+a.firstlinkclass:visited {
+	color: yellow;
+	transition: 0.3s ease;
+	background-color: black;
+}
+
+a.firstlinkclass:hover {
+	background-color: yellow;
+	color: black;
+	transition: 0.3s ease;
+	letter-spacing: 3px;
+	}
+
+
+.firstbigimg {
+
+}
+
+.secondsecstyle {
+	background-color: yellow;
+	font-family: bignoodle;
+	font-size: 35px;
+	color: black;
+	text-align: justify;
+	padding: 180px 85px 180px 85px;
+}
+
+.thirdsecstyle {
+		padding: 180px 85px 180px 85px;
+}
+
+.tipwhotitle {
+	font-size: 85px;
+	float: right;
+	margin-top: -127px;
+	font-family: bignoodle;
+}
+
+.imgplustxtportf{
+	filter: brightness(50%);
+	transition: 0.2s ease;
+	float: left;
+	margin-right: 5px;
+}
+
+.imgplustxtportf:hover{
+	filter:brightness(100%);
+	transition: 0.2s ease;
+}
+
+.txtportfcard {
+	font-family: bignoodle;
+	color: black;
+	position: absolute;
+	font-size: 65px;
+	bottom: 2px;
+	left: 16px;
+}
+
+.txtportfcard:hover {
+	
+}
